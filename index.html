@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ninja VPN mobile app for Android</title>
+    <meta name="description" content="Free VPN, Ninja VPN, download for Android, download for Huawei, free byebyedpi">
+
+    <link href="/ninjalite/assets/landing/css/main.css" rel="stylesheet">
+    <link href="/ninjalite/assets/landing/css/styles.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <style>
+        body {
+            background: #ffffff;
+        }
+        .text-light {
+            color: #000000!important;
+        }
+        .text-light h1, .text-light .h1, .text-light h2, .text-light .h2, .text-light h3, .text-light .h3, .text-light h4, .text-light .h4, .text-light h5, .text-light .h5, .text-light h6, .text-light .h6 {
+            color: #000000!important;
+        }
+        .text-light a:not(.btn) {
+            color: #0eabf9;
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/ninjalite/assets/landing/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ninjalite/assets/landing/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ninjalite/assets/landing/favicon-16x16.png">
+    <link rel="manifest" href="/ninjalite/assets/landing/site.webmanifest">
+    <link rel="mask-icon" href="/ninjalite/assets/landing/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<header id="home" class="header" data-style="default">
+    <div class="header-hero d-flex align-items-center text-light">
+        <div class="container position-relative zi-1">
+            <div class="row align-items-center">
+                <div class="col-12 position-relative text-center zi-4 mb-8 mb-lg-10">
+                    <h1 class="display-md-4 display-xl-3 fw-600 lh-2 pt-12 mb-7 mb-lg-8">
+                        <span id="element"></span>
+                    </h1>
+                    <span class="d-block fw-500 lead-md-1 o-70 mb-7 mb-lg-8">
+                        We are a mobile application studio striving to create experiences that everyone can enjoy.
+                        We work hard, but we create even more!
+                    </span>
+                    <div>
+                        <div class="">
+                            <a href="https://play.google.com/store/apps/details?id=com.humble.unlimited_vpn_lite" class="btn-download">
+                                <img width="350" height="100" src="/ninjalite/assets/images/google.webp" alt="Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script async defer>
+    let script = document.createElement('script');
+    script.src = "https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"
+    document.head.append(script);
+
+    script.onload = function() {
+        const typed = new Typed('#element', {
+            strings: ['Internet', 'Network', 'Security', 'Fast', 'Free', 'only on', 'Ninja Lite VPN'],
+            typeSpeed: 70,
+            backDelay: 500,
+            startDelay: 10,
+            loop: false,
+        });
+    };
+</script>
+</body>
+</html>
